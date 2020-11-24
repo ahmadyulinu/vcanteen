@@ -94,7 +94,7 @@
           <h2>All done? Checkout here</h2>
           <form v-on:submit.prevent>
             <div class="form-group">
-              <label for="name" style="font-weight:bold;">Name</label>
+              <label for="name" style="font-weight:light;">Name</label>
               <input
                 type="text"
                 class="form-control"

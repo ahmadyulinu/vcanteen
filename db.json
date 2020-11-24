@@ -99,7 +99,21 @@
       "gambar": "burger.png"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "order_a": "1",
+      "desc": "1",
+      "products": {
+        "id": 1,
+        "kode": "B-1",
+        "nama": "Burger Special Buto",
+        "harga": 25000,
+        "is_ready": true,
+        "gambar": "burger.png"
+      },
+      "id": 1
+    }
+  ],
   "pesanan": [
     [],
     {
