@@ -79,7 +79,7 @@
                     ></b-icon-trash>
                   </td>
                 </tr>
-                <tr>
+                <tr v-if="carts.length != 0">
                   <td colspan="6" align="right">
                     <strong>Total Amount: </strong>
                   </td>
