@@ -1,6 +1,6 @@
 <template>
   <div class="cart">
-    <Navbar />
+    <Navbar :updateCart="carts" />
     <div class="container">
       <div class="row mt-4">
         <div class="col">
@@ -20,23 +20,20 @@
 
       <div v-if="carts.length === 0">
         <div class="row">
-          <div class="col">
-            <b-alert
-              show
-              variant="warning"
-              style="color: #2F2E41;"
-              class="warning"
+          <div class="col text-center">
+            <h1>Hey! Your cart is still empty!</h1>
+            <router-link
+              class="btn btn-lg btn-warning mt-4"
+              name="pesan"
+              to="/foods"
             >
-              Your cart is empty! Let's
-              <router-link to="/foods" class="links" style="font-weight: bold"
-                >order</router-link
-              >
-              now, shall we?</b-alert
-            >
+              Order now
+              <b-icon-arrow-right></b-icon-arrow-right>
+            </router-link>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" v-if="carts.length != 0">
         <div class="col">
           <h2><strong>My</strong> Cart</h2>
           <div class="table-responsive mt-3">
@@ -79,7 +76,7 @@
                     ></b-icon-trash>
                   </td>
                 </tr>
-                <tr v-if="carts.length != 0">
+                <tr>
                   <td colspan="6" align="right">
                     <strong>Total Amount: </strong>
                   </td>
