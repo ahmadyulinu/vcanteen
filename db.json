@@ -99,7 +99,21 @@
       "gambar": "burger.png"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "order_a": "1",
+      "desc": "2",
+      "products": {
+        "id": 2,
+        "kode": "B-2",
+        "nama": "California Pizza",
+        "harga": 45000,
+        "is_ready": true,
+        "gambar": "pizza.png"
+      },
+      "id": 1
+    }
+  ],
   "pesanan": [
     [],
     {
