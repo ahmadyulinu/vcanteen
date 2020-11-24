@@ -1,0 +1,265 @@
+{
+  "best_products": [
+    {
+      "id": 1,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 2,
+      "kode": "B-2",
+      "nama": "California Pizza",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "pizza.png"
+    },
+    {
+      "id": 3,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 2,
+      "kode": "B-2",
+      "nama": "California Pizza",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "pizza.png"
+    },
+    {
+      "id": 3,
+      "kode": "B-3",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 4,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 4,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 5,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 6,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 7,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    },
+    {
+      "id": 8,
+      "kode": "B-1",
+      "nama": "Burger Special Buto",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "burger.png"
+    }
+  ],
+  "cart": [],
+  "pesanan": [
+    [],
+    {
+      "name": "yuli",
+      "nim": "0821",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "Spice",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Achmad Yuli",
+      "nim": "08521",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "Spice",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "daniel prastha",
+      "nim": "0821",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "Spice",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Muhammad Rifki Pratama",
+      "nim": "088",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "Spice",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Achmad Yuli Nugroho",
+      "nim": "0821",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        },
+        {
+          "order_a": "2",
+          "desc": "Vegan",
+          "products": {
+            "id": 2,
+            "kode": "B-2",
+            "nama": "California Pizza",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "pizza.png"
+          },
+          "id": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Achmad Yuli Nugroho",
+      "nim": "085",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "4",
+          "desc": "Party size.",
+          "products": {
+            "id": 2,
+            "kode": "B-2",
+            "nama": "California Pizza",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "pizza.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "aw",
+      "nim": "aw",
+      "jurusan": "aw",
+      "carts": [
+        {
+          "desc": "asdsa",
+          "order_a": "1",
+          "products": {
+            "id": 1,
+            "kode": "B-1",
+            "nama": "Burger Special Buto",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "burger.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 9
+    }
+  ]
+}

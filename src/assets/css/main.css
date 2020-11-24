@@ -1,0 +1,56 @@
+#app {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+    
+}
+
+.btn-warning {
+    background-color: #FFB519;
+}
+
+.badge-warning {
+    background-color: #FFB519;
+}
+
+.card {
+    border-radius: 5px;
+    color: #2F2E41;
+  }
+
+.form-control:focus {
+    border-color: #FFB519;
+    box-shadow: none;
+} 
+
+.edit {
+    background: #FFF;
+    color: #2F2E41;
+    border-radius: 3px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+td .img-fluid {
+    width: 250px; 
+    max-height: 400px;
+}
+
+.warning {
+    background-color: #FFB519;
+}
+
+.links {
+    color: #2F2E41;
+}
+
+.links:hover {
+    color: #2F2E41;
+    text-decoration: none;
+}
