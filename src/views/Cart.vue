@@ -57,6 +57,7 @@
                     <img
                       :src="'/img/' + cart.products.gambar"
                       class="img-fluid rounded shadow"
+                      style="height: 140px"
                     />
                   </td>
                   <td>
@@ -84,7 +85,9 @@
                 </tr>
               </tbody>
             </table>
-            <hr style="height:20px; width: 70%" />
+            <div class="textcenter">
+              <div class="hr"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,9 +95,9 @@
       <div class="row" v-if="carts.length != 0">
         <div class="col-md-5">
           <h2>All done? Checkout here</h2>
-          <form v-on:submit.prevent>
+          <form v-on:submit.prevent class="checkout-form">
             <div class="form-group">
-              <label for="name" style="font-weight:light;">Name</label>
+              <label for="name" style="font-weight:bold;">Name</label>
               <input
                 type="text"
                 class="form-control"
@@ -134,7 +137,7 @@
           <img
             src="../assets/img/checkout.svg"
             width="80%"
-            class="float-right"
+            class="float-right checkout-image"
           />
         </div>
       </div>

@@ -54,3 +54,16 @@ td .img-fluid {
     color: #2F2E41;
     text-decoration: none;
 }
+
+.checkout-image {
+    position: relative;
+    left: 100px;
+}
+
+
+.hr {
+    background-color: #2F2E41;
+    width: 40%;
+    display: block;
+    height: 3px;
+}

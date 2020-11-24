@@ -260,6 +260,52 @@
         }
       ],
       "id": 9
+    },
+    {
+      "name": "Achmad Yuli Nugroho",
+      "nim": "08214370",
+      "jurusan": "Sistem Informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "Large size",
+          "products": {
+            "id": 8,
+            "kode": "B-8",
+            "nama": "Grilled Beef Steak",
+            "harga": 100000,
+            "is_ready": true,
+            "gambar": "beef_steak.jpg"
+          },
+          "id": 1
+        },
+        {
+          "order_a": "4",
+          "products": {
+            "id": 3,
+            "kode": "B-3",
+            "nama": "BLT Salad",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "blt_salad.png"
+          },
+          "id": 2
+        },
+        {
+          "order_a": "2",
+          "desc": "No pepperoni, hot sauce.",
+          "products": {
+            "id": 2,
+            "kode": "B-2",
+            "nama": "California Pizza",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "pizza.png"
+          },
+          "id": 3
+        }
+      ],
+      "id": 10
     }
   ]
 }
