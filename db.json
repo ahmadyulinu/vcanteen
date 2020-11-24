@@ -68,35 +68,35 @@
     },
     {
       "id": 6,
-      "kode": "B-1",
+      "kode": "B-6",
       "nama": "Taco Bell's Beef Taco",
       "harga": 20000,
       "is_ready": true,
       "gambar": "taco.jpg"
     },
     {
-      "id": 6,
-      "kode": "B-1",
-      "nama": "Burger Special Buto",
-      "harga": 25000,
-      "is_ready": true,
-      "gambar": "burger.png"
-    },
-    {
       "id": 7,
-      "kode": "B-1",
-      "nama": "Burger Special Buto",
-      "harga": 25000,
+      "kode": "B-7",
+      "nama": "Original Fried Chicken",
+      "harga": 15000,
       "is_ready": true,
-      "gambar": "burger.png"
+      "gambar": "fried_chicken.jpeg"
     },
     {
       "id": 8,
-      "kode": "B-1",
-      "nama": "Burger Special Buto",
-      "harga": 25000,
+      "kode": "B-8",
+      "nama": "Grilled Beef Steak",
+      "harga": 100000,
       "is_ready": true,
-      "gambar": "burger.png"
+      "gambar": "beef_steak.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "B-9",
+      "nama": "Chicken Geprek",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "geprek.jpg"
     }
   ],
   "cart": [],
