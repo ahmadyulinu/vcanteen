@@ -10,7 +10,7 @@
                 <strong>Delicious food</strong>, <br />just a tap away from your
                 phone
               </h2>
-              <p>What're you waiting for? Order now!</p>
+              <p>The right place for any occasion. Order now!</p>
               <router-link
                 class="btn btn-lg btn-warning"
                 name="pesan"
