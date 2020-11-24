@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import AOS from 'aos'
+AOS.init();
 export default {
   name: "CardProduct",
   props: ["product"],

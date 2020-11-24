@@ -3,18 +3,19 @@
     <Navbar />
     <div class="container">
       <Hero />
-      <div class="row mt-5">
-        <div class="col">
+      <div class="aos">
+        <div class="row mt-5">
+        <div class="col mt-5" data-aos="fade-up">
           <h2>Our <strong>best food</strong></h2>
         </div>
-        <div class="col">
+        <div class="col mt-5"  data-aos="fade-up">
           <router-link class="btn btn-lg btn-warning float-right" to="/foods"
             ><b-icon-eye></b-icon-eye> See all</router-link
           >
         </div>
       </div>
 
-      <div class="row mb-3">
+      <div class="row mb-3" data-aos="fade-up">
         <div
           class="col-md-4 mt-4"
           v-for="product in products"
@@ -22,6 +23,7 @@
         >
           <CardProduct :product="product" />
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -65,3 +67,5 @@ export default {
   },
 };
 </script>
+<style>
+</style>

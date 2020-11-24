@@ -26,13 +26,13 @@
           </div>
         </div>
       </div>
-      <div class="row mb-3">
+      <div class="row mb-3" data-aos="fade-up">
         <div
           class="col-md-4 mt-4"
           v-for="product in products"
           :key="product.id"
         >
-          <CardProduct :product="product" />
+          <CardProduct :product="product"  />
         </div>
       </div>
     </div>
@@ -43,6 +43,9 @@
 import Navbar from "@/components/NavBar.vue";
 import CardProduct from "@/components/CardProduct.vue";
 import axios from "axios";
+
+
+
 
 export default {
   name: "Food",
