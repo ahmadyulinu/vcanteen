@@ -2,7 +2,9 @@
 
 ## Project setup
 ```
-npm install
+1. Clone repo ini dari github.
+2. Copy isi dari zip modules ke repo lokal vcanteen di PC anda.
+3. Jalankan.
 ```
 
 ### Compiles and hot-reloads for development
