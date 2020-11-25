@@ -1,73 +1,71 @@
 #app {
-    font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .router-link-exact-active {
-    font-weight: bold;
-    
+  font-weight: bold;
 }
 
 .btn-warning {
-    background-color: #FFB519;
+  background-color: #ffb519;
 }
 
 .badge-warning {
-    background-color: #FFB519;
+  background-color: #ffb519;
 }
 
 .card {
-    border-radius: 5px;
-    color: #2F2E41;
-  }
+  border-radius: 5px;
+  color: #2f2e41;
+}
 
 .form-control:focus {
-    border-color: #FFB519;
-    box-shadow: none;
-} 
+  border-color: #ffb519;
+  box-shadow: none;
+}
 
 .edit {
-    background: #FFF;
-    color: #2F2E41;
-    border-radius: 3px;
+  background: #fff;
+  color: #2f2e41;
+  border-radius: 3px;
 }
 
 .breadcrumb {
-    background-color: transparent;
-    padding: 0;
+  background-color: transparent;
+  padding: 0;
 }
 
 td .img-fluid {
-    width: 250px; 
-    max-height: 400px;
+  width: 250px;
+  max-height: 400px;
 }
 
 .warning {
-    background-color: #FFB519;
+  background-color: #ffb519;
 }
 
 .links {
-    color: #2F2E41;
+  color: #2f2e41;
 }
 
 .links:hover {
-    color: #2F2E41;
-    text-decoration: none;
+  color: #2f2e41;
+  text-decoration: none;
 }
 
 .checkout-image {
-    position: relative;
-    left: 100px;
+  position: relative;
+  left: 100px;
 }
 
-
 .hr {
-    background-color: #2F2E41;
-    width: 40%;
-    display: block;
-    height: 3px;
+  background-color: #2f2e41;
+  width: 40%;
+  display: block;
+  height: 3px;
 }
 
 .aos {
-    margin-top: 10%;
+  margin-top: 10%;
 }
