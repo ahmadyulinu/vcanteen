@@ -1,7 +1,7 @@
 # vuecanteen
 ## Link modul
 ```
-<google.com>
+(google.com)
 ```
 ## Project setup
 ```
@@ -15,9 +15,9 @@
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Push ke GitHub
 ```
-npm run build
+git push origin new-main
 ```
 
 ### Lints and fixes files
