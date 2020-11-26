@@ -1,7 +1,7 @@
 # vuecanteen
 ## Link modul
 ```
-[modul](google.com)
+
 ```
 ## Project setup
 ```
