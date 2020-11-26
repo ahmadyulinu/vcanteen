@@ -5,6 +5,7 @@
 ```
 ## Project setup
 ```
+0. Sebelum memulai lakukan git pull origin new-main terlebih dahulu
 1. Clone repo ini dari github.
 2. Copy isi dari zip modules ke repo lokal vcanteen di PC anda.
 3. Jalankan.
