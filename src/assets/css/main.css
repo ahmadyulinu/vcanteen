@@ -61,7 +61,7 @@ td .img-fluid {
 
 .hr {
   background-color: #2f2e41;
-  width: 40%;
+  width: 100%;
   display: block;
   height: 3px;
 }
@@ -69,3 +69,10 @@ td .img-fluid {
 .aos {
   margin-top: 10%;
 }
+
+.checkout-img {
+  max-width: 80px;
+  max-height: 80px;
+  padding-bottom: 3px;
+}
+

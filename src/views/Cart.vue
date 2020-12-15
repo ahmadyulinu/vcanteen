@@ -4,17 +4,7 @@
     <div class="container">
       <div class="row mt-4">
         <div class="col">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <router-link to="/">Home</router-link>
-              </li>
-              <li class="breadcrumb-item">
-                <router-link to="/foods">Food</router-link>
-              </li>
-              <li class="breadcrumb-item" aria-current="page">Cart</li>
-            </ol>
-          </nav>
+          <nav aria-label="breadcrumb"></nav>
         </div>
       </div>
 
@@ -51,13 +41,13 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(cart, index) in carts" :key="cart.id">
+                <tr v-for="(cart, index) in carts" :key="index">
                   <th>{{ index + 1 }}</th>
                   <td class="text-center">
                     <img
                       :src="'/img/' + cart.products.gambar"
                       class="img-fluid rounded shadow"
-                      style="height: 140px"
+                      style="height: 140px; width: 160px;"
                     />
                   </td>
                   <td>
@@ -73,15 +63,15 @@
                   <td class="text-center text-danger">
                     <b-icon-trash
                       @click="deleteCart(cart.id)"
-                      style="cursor: pointer;"
+                      style="cursor: pointer"
                     ></b-icon-trash>
                   </td>
                 </tr>
                 <tr>
                   <td colspan="6" align="right">
-                    <strong>Total Amount: </strong>
+                    <strong>Total Price: </strong>
                   </td>
-                  <td>Rp. {{ total }}</td>
+                  <td><strong>Rp.</strong> {{ total }}</td>
                 </tr>
               </tbody>
             </table>
@@ -97,7 +87,7 @@
           <h2>All done? Checkout here</h2>
           <form v-on:submit.prevent class="checkout-form">
             <div class="form-group">
-              <label for="name" style="font-weight:bold;">Name</label>
+              <label for="name" style="font-weight: bold">Name</label>
               <input
                 type="text"
                 class="form-control"
@@ -106,7 +96,7 @@
               />
             </div>
             <div class="form-group">
-              <label for="nim" style="font-weight:bold;">NIM</label>
+              <label for="nim" style="font-weight: bold">NIM</label>
               <input
                 type="text"
                 class="form-control"
@@ -123,6 +113,29 @@
                 v-model="pesan.jurusan"
               ></textarea>
             </div>
+            <div class="mt-3 checkbox-container">
+              <h6 style="font-weight:bold;" class="mb-2">Payment Methods</h6>
+              <div class="form-check-inline mt-2">
+                <label class="form-check-label">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="payment_method"
+                    value="gopay"
+                  /><img src="/img/gopay.png" class="checkout-img" />
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="payment_method"
+                    value="dana"
+                  /><img src="/img/dana.png" class="checkout-img" />
+                </label>
+              </div>
+            </div>
             <button
               type="submit"
               class="btn btn-warning mt-3"
@@ -132,6 +145,7 @@
             </button>
           </form>
         </div>
+        <img src="" alt="" />
 
         <div class="col-md-5">
           <img

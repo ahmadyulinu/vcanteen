@@ -21,6 +21,10 @@
       <b-navbar-nav class="ml-auto">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a href="" class="nav-link" v-if="!$auth.isAuthenticated" @click="login" style="color: black">Sign in</a>
+            <a href="" class="nav-link" v-if="$auth.isAuthenticated" @click="logout" style="color: black;">Sign out</a>
+          </li>
+          <li class="nav-item" v-if="$auth.isAuthenticated">
             <router-link class="nav-link" to="/cart">
               <b-icon-cart style="color: #2F2E41"></b-icon-cart>
               <span class="badge badge-warning ml-2">
@@ -28,6 +32,8 @@
               </span>
             </router-link>
           </li>
+          
+
         </ul>
       </b-navbar-nav>
     </b-collapse>
@@ -87,6 +93,14 @@ export default {
     setJumlah(data) {
       this.order_a = data;
     },
+    login() {
+      this.$auth.loginWithRedirect();
+    },
+    logout() {
+      this.$auth.logout({
+        returnTo: window.location.origin
+      });
+    }
   },
   mounted() {
     axios

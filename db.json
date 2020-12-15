@@ -306,6 +306,27 @@
         }
       ],
       "id": 10
+    },
+    {
+      "name": "Achmad Yuli Nugroho",
+      "nim": "0988771",
+      "jurusan": "Sistem informasi",
+      "carts": [
+        {
+          "order_a": "1",
+          "desc": "3",
+          "products": {
+            "id": 2,
+            "kode": "B-2",
+            "nama": "California Pizza",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "pizza.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 11
     }
   ]
 }

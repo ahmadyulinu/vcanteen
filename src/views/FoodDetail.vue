@@ -87,6 +87,7 @@ export default {
     setProduct(data) {
       this.product = data;
     },
+    
     pemesanan() {
       if (this.pesan.order_a) {
         this.pesan.products = this.product;

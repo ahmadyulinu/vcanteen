@@ -4,7 +4,9 @@
       <div class="container">
           <div class="row">
               <div class="col text-center">
-                  2020 Copyright, Achmad Yuli
+                 <h6>
+                     Copyright 2020, <b>Achmad Yuli Nugroho</b>
+                 </h6>
               </div>
           </div>
 

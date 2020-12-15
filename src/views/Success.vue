@@ -12,6 +12,9 @@
           <h1 class="mt-4">
             Congratulations! Delicious food is coming your way.
           </h1>
+          <h2>
+            A detailed receipt will be sent to your email address.
+          </h2>
         </div>
       </div>
     </div>
