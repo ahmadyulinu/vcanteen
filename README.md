@@ -11,9 +11,19 @@ https://drive.google.com/file/d/1lKVXwytHSZNiM8Y7aD98c4apfILzMLiF/view?usp=shari
 3. Jalankan.
 ```
 
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+```
+### Install db json server
+```
+npm install -g json-server
+```
+
+### Add db json
+```
+json-server --watch db.json
 ```
 
 ### Push ke GitHub
